@@ -1,0 +1,22 @@
+D:\Sales and inventory\Sales and inventory\obj\Release\ResolveAssemblyReference.cache
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmcategory.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmdeliverydetails.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmlogin.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmmain.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmnewuser.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmproduct.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmpurchase.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmsearch.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmsorderview.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmsupplier.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmsupplierorder.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales and inventory.vbproj.GenerateResource.Cache
+D:\Sales and inventory\Sales and inventory\bin\Release\Sales and inventory.exe
+D:\Sales and inventory\Sales and inventory\bin\Release\Sales and inventory.pdb
+D:\Sales and inventory\Sales and inventory\bin\Release\Sales and inventory.xml
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.Resources.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales and inventory.exe
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales and inventory.xml
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales and inventory.pdb
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmproducts.resources
+D:\Sales and inventory\Sales and inventory\obj\Release\Sales_and_inventory.frmemployee.resources

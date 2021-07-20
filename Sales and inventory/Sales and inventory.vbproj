@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F39B522B-B3A7-4B88-9030-D9A1780D2B72}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sales_and_inventory.My.MyApplication</StartupObject>
+    <RootNamespace>Sales_and_inventory</RootNamespace>
+    <AssemblyName>Sales and inventory</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sales and inventory.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sales and inventory.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmcategory.Designer.vb">
+      <DependentUpon>frmcategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdeliverydetails.Designer.vb">
+      <DependentUpon>frmdeliverydetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmdeliverydetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmemployee.Designer.vb">
+      <DependentUpon>frmemployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmemployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmain.Designer.vb">
+      <DependentUpon>frmmain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewuser.Designer.vb">
+      <DependentUpon>frmnewuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmnewuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmproduct.Designer.vb">
+      <DependentUpon>frmproduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmproduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmproducts.Designer.vb">
+      <DependentUpon>frmproducts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmproducts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmpurchase.Designer.vb">
+      <DependentUpon>frmpurchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmpurchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsearch.Designer.vb">
+      <DependentUpon>frmsearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsorderview.Designer.vb">
+      <DependentUpon>frmsorderview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsorderview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsupplier.Designer.vb">
+      <DependentUpon>frmsupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsupplierorder.Designer.vb">
+      <DependentUpon>frmsupplierorder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmsupplierorder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="general.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmcategory.resx">
+      <DependentUpon>frmcategory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdeliverydetails.resx">
+      <DependentUpon>frmdeliverydetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmemployee.resx">
+      <DependentUpon>frmemployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmain.resx">
+      <DependentUpon>frmmain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnewuser.resx">
+      <DependentUpon>frmnewuser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmproduct.resx">
+      <DependentUpon>frmproduct.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmproducts.resx">
+      <DependentUpon>frmproducts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpurchase.resx">
+      <DependentUpon>frmpurchase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsearch.resx">
+      <DependentUpon>frmsearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsorderview.resx">
+      <DependentUpon>frmsorderview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsupplier.resx">
+      <DependentUpon>frmsupplier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsupplierorder.resx">
+      <DependentUpon>frmsupplierorder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\720a8008c9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoozoo %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
